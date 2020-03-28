@@ -234,6 +234,14 @@ a:focus {
     with width utilities
 */
 
+.c-logo {
+    height: 32px;
+}
+
+.c-logo__symbol {
+    height: 100%;
+}
+
 .o-layout {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -356,6 +364,14 @@ a:focus {
     ---
     Utility classes to put specific max widths onto elements
 */
+
+@media (min-width: 768px) 
+{
+    .c-logo{
+        height: 40px ;
+    }
+}
+
 
 .u-max-width-xs {
     max-width: 18em !important;
